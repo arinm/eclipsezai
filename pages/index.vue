@@ -36,8 +36,8 @@
         <h1 class="title">eclipsez.ai</h1>
         <h2 class="subtitle">Where Intelligence Emerges From Shadow</h2>
         <div class="cta-buttons">
-          <button class="btn primary">Enter the Eclipse</button>
-          <button class="btn secondary">Learn More</button>
+          <a href="#contact" class="btn primary">Enter the Eclipse</a>
+          <a href="#features" class="btn secondary">Learn More</a>
         </div>
       </div>
       <div class="scroll-indicator">
