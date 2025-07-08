@@ -445,18 +445,17 @@ a {
     content: "";
     opacity: 0.1;
     display: block;
-    width: 50%;
     height: 100%;
-    background-image: url(/_nuxt/assets/images/dark-umbra.webp);
+    background-image: url(dark-umbra.webp);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     filter: blur(9px);
     margin: auto;
     left: 0;
-    position: absolute;
+    /* position: absolute; */
     left: revert;
     right: 0;
-    top: 0;
+
   }
 
   .particles {
@@ -792,7 +791,7 @@ a {
 // Footer
 .footer {
   padding: 4rem 0 2rem;
-  background-color: darken($color-bg-primary, 2%);
+  background-color: #0a0a18;
   border-top: 1px solid rgba($color-primary, 0.1);
 
   .footer-content {
